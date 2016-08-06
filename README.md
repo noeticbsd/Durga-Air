@@ -15,3 +15,9 @@ Installation:
 1) You will need to create a folder .durgaair under your main home directory (mkdir /home/$USER/.durgaair).
 2) Download and copy the wpa_wifi.conf (wpa_supplicant.conf) to the /home/user/.durgaair directory. 
 3) installation is complete you can now run durga-air. 
+
+Durga-Air comes with several options here are some examples; -open: this option will allow you to connect to a open wireless network, currently this option does not save the open wifi profiles for later use: to run this option you will simple want to include the "-open" switch when starting durgaair: ./durgaair.sh -open
+
+-secured: this option will allow you to connect to a WEP/WPA encrypted wireless connection. This option will also prompt you to save this Wifi Profile for later use. to run this option you will simple want to include the "-secured" switch when starting durgaair; ./durgaair.sh -secured
+
+-saved: this option will allow you to utilize a previously saved wifi profile in order to connect to a wireless network. This option is currently functioning however will be going to revising soon. to run this option simple add the "-saved" switch when starting durgaair: ./durgaair.sh -open
